@@ -15,7 +15,7 @@ public class ThreadMethods {
         threadMethodEx2.start();
 
         Thread.sleep(3000);  // sleep method
-        threadMethodEx.interrupt();  // interrupt method -> request to stop or pause
+        // threadMethodEx.interrupt();  // interrupt method -> request to stop or pause
         System.out.println("Thread after sleep ");
         threadMethodEx.join();    // join method -> once threadMethodEx works completed then main thread starts
     }
